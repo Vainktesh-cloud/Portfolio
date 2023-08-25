@@ -18,6 +18,18 @@
             // Add an event listener to the window's resize event
             window.addEventListener('resize', checkViewport);
           </script>
+
+          <style>
+              @media screen and (max-width: 767px) and (orientation: landscape) {
+    .column,
+    .scroll {
+      width: 500px;
+      height: auto;
+      top: 0;
+      position: relative;
+    }
+  }
+          </style>
         <title>Portfolio</title>
     </head>
     <body>
@@ -30,19 +42,19 @@
 
     <div class="container" >
       <a href="mobileview.html">
-            <img class="buttonpro" src="element/menu.png" alt="" width="75" height="75">
+            <img class="buttonpro" src="element/menu.png" alt="" width="95" height="95">
         </a>
 
         
-        <img class="promax" src="element/dot.png" alt="logo" width="65" height="65">
-        <img class="promax" src="element/dot.png" alt="logo" width="65" height="65">
-        <img class="promax" src="element/dot.png" alt="logo" width="65" height="65">
+        <img class="promax" src="element/dot.png" alt="logo" width="95" height="95">
+        <img class="promax" src="element/dot.png" alt="logo" width="95" height="95">
+        <img class="promax" src="element/dot.png" alt="logo" width="95" height="95">
 
 
     </div>
     </div>
-    <div class="column">
-        <div class="scroll">
+    <div class="column" id="column">
+        <div class="scroll" id="scroll">
         <div class="button">
             <a href="#home">
             <button class="button"   >
@@ -136,7 +148,7 @@
     
     
 <div class="profile" >
-    <img  src="element/pg101.png" alt="" width="930" height="160" >
+    <img  src="element/pg101.png" alt="" width="930" height="200" >
     <div class="pic">
     <img src="element/555.png" alt="" width="150" height="150">
         <div class="list">
@@ -403,7 +415,14 @@
     if (screen.width >= 1000) {
       document.location = "index.html";
     }
+
   </script>
+
+<script type="text/javascript">
+  if (screen.width <= 767) {
+    document.location = "mobile view landscape.html";
+  }
+</script>
 </body>
 </html>
 

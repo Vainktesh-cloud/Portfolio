@@ -1,32 +1,4 @@
-@media (orientation: landscape) {
-    .column{
-        font-size: 1rem;
-        color: black;
-        width: 100%;
-        border-radius: 5px;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.922);
-        width: 290px;
-        height: 100px;
-        position: fixed;
-        top: 70px;
-        background-color:  #1c1b23;
-           align-content: end;
-           overflow-x: hidden;
-           overflow-y: auto;
 
-	        div.scroll {
-        margin:4px, 4px;
-        padding:4px;
-        background-color: transparent;
-        width: 290px;
-        height: 900px;
-        overflow-x: hidden;
-        overflow-y: auto;
-        text-align:right;
-    }
-
-    }
-}
 
 html{
     scroll-behavior: smooth;
@@ -36,6 +8,7 @@ header{
 	top: 0px;
 	width: 100%;
 	z-index: 2147483647;
+    height: 100px;
 }
 .container {
 	font-size: 1rem;
@@ -44,7 +17,7 @@ header{
 	border-radius: 0px;
 	top: 0px;
 width: 980px;
-	height: 70px;
+	height: 100px;
 	background-color: #1c1b23;
 	border-radius: 0px 2px 5px 0px;
 	box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.922);
@@ -60,8 +33,8 @@ width: 980px;
 	border-radius: 5px;
 	width: 500px;
 	height: 160px;
-	left: 180px;
-bottom: 130px;
+	left: 190px;
+bottom: 160px;
    outline: none;
 
   }
@@ -72,14 +45,14 @@ bottom: 130px;
 	border-radius: 20px;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.922);
 	width: 930px;
-	height:160px;
+	height:200px;
     background-color:  #1c1b23;
     text-align: center;
     display: grid;
     position: relative;
     left: 20px;
     bottom:0px;
-    top: 90px;
+    top: 130px;
     grid-template-columns: 1px 1px;
     grid-gap:0px;
 }
@@ -90,13 +63,13 @@ bottom: 130px;
 	width: 100%;
 	border-radius: 100%;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.922);
-	width: 150px;
-	height:150px;
+	width: 170px;
+	height:170px;
     background-color:  white;
    align-content: center;
    text-align: center;
    position: relative;
-   top: 0px;
+   top: 20px;
    left: 30px;
 }
 
@@ -126,7 +99,7 @@ main{
     background-color:  transparent;
    position: relative;
    bottom: 0px;
-   top: 280px;
+   top: 295px;
    left: 40px;
 }
 
@@ -140,7 +113,7 @@ main{
    position: relative;
    bottom: 0px;
    left: 40px;
-   top: 280px;
+   top: 300px;
    font-weight: lighter;
    background-color: transparent;
 margin: 0%;
@@ -186,7 +159,7 @@ margin: 0%;
    position: relative;
    bottom: 0px;
    left: 40px;
-   top: 530px;
+   top: 540px;
 }
 
 .frontend-main{
@@ -199,7 +172,7 @@ margin: 0%;
    position: relative;
    bottom: 0px;
    left: 40px;
-   top: 530px;
+   top: 540px;
    font-weight: lighter;
    background-color: transparent;
 }
@@ -257,7 +230,7 @@ body{
         background-color:  transparent;
        position: relative;
        bottom: 0px;
-       top:90px;
+       top:120px;
        left: 40px;
 
     }
@@ -272,7 +245,7 @@ body{
        position: relative;
        bottom: 0px;
        left: 40px;
-       top: 40px;
+       top: 60px;
        font-weight: lighter;
        font-size:43px;
     }
@@ -347,8 +320,8 @@ border: 0px;
     }
     
     .buttonpro{
-        width: 65px;
-        height: 65px;
+        width: 95px;
+        height: 95px;
         position: relative;
     top: 0px;
     left: 0px;
@@ -360,8 +333,8 @@ border: 0px;
     }
     
     .promax{
-        width: 65px;
-        height: 65px;
+        width: 95px;
+        height: 95px;
         position: relative;
     top: 0px;
     right: 0px;
@@ -381,14 +354,14 @@ border: 0px;
         width: 290px;
         height: 900px;
         position: fixed;
-        top: 70px;
+        top: 100px;
         background-color:  #1c1b23;
            align-content: end;
            overflow-x: hidden;
            overflow-y: auto;
     }
     
-    div.scroll {
+    .scroll {
         margin:4px, 4px;
         padding:4px;
         background-color: transparent;
